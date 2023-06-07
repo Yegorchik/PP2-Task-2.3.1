@@ -27,8 +27,8 @@
       <td th:text="${user.getName()}" ></td>
       <td th:text="${user.getLastName()}" ></td>
       <td th:text="${user.getAge()}" ></td>
-      <td><a th:href="@{http://localhost:8085/editUser(id=${user.id})}">Edit</a></td>
-      <td><a th:href="@{http://localhost:8085/deleteUser(id=${user.id})}">Delete</a></td>
+      <td><a th:href="@{http://localhost:8080/editUser(id=${user.id})}">Edit</a></td>
+      <td><a th:href="@{http://localhost:8080/deleteUser(id=${user.id})}">Delete</a></td>
     </tr>
   </th:block>
 </table>
